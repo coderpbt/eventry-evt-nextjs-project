@@ -1,0 +1,47 @@
+# -------------------------------------------------
+# 🧾 Project: Eventry
+# -------------------------------------------------
+# ✨ Features:
+# - Event listing & details
+# - User interest tracking on events
+# - Optimized images using @plaiceholder/next + sharp
+# - Email notifications via Resend API
+# - MongoDB integration with mongoose
+# - Built with Next.js 14, TailwindCSS, and TypeScript-ready setup
+# -------------------------------------------------
+
+# 📦 Dependencies
+/node_modules
+/.pnp
+.pnp.js
+.yarn/install-state.gz
+
+# 🧪 Testing
+/coverage
+
+# ⚛️ Next.js Build Outputs
+/.next/
+out/
+
+# 🚀 Production Builds
+/build
+
+# 🗂️ Miscellaneous
+.DS_Store
+*.pem
+
+# 🪲 Debug & Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 🔒 Environment Variables update
+.env
+.env*.local
+
+# ▲ Vercel
+.vercel
+
+# 🧑‍💻 TypeScript
+*.tsbuildinfo
+next-env.d.ts
